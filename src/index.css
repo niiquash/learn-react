@@ -9,45 +9,12 @@ body {
   align-items: center;
   font-family: "Inter", sans-serif;
   background-color: whitesmoke;
+  padding: 40px;
 }
 
 .contacts {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
   gap: 40px;
-}
-
-.contact-card {
-  flex-basis: 225px;
-  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  padding: 13px;
-  padding-bottom: 20px;
-  background-color: white;
-}
-
-.contact-card > img {
-  width: 100%;
-  height: 150px;
-  align-self: center;
-  border-radius: 5px;
-  object-fit: cover;
-}
-
-.contact-card > h3 {
-  font-weight: 700;
-  font-size: 18px;
-}
-
-.info-group {
-  display: flex;
-  align-items: center;
-}
-
-.info-group > img {
-  height: 12px;
-  margin-right: 8px;
 }
